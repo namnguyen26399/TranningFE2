@@ -2,7 +2,6 @@
     width: 1920px;
     height: 1028px;
     background-color: rgb(255, 255, 255);
-
 }
 #container{
     display: flex;
@@ -13,23 +12,16 @@
     height:768px;
     position: relative;
     margin-top:138px;
-    /* border: 0.5px rgba(141, 140, 140, 0.8) solid; 
-    box-sizing: border-box;  */
-    
 }
 #first{
     background-color: rgb(0, 188, 212);
     margin-left: 375px;
-    /* border-left: 0.5px solid gray;  */
 }
 #second{
     background-color: rgb(28 , 144, 202);
-
 }
 #third{
     background-color: rgb(114, 100, 189);
-    /* border-right: 1px solid red; */
-    
 }
 
 #title{
@@ -57,7 +49,6 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 #cost p:nth-child(1){
-    /* margin-top:10px; */
     font-size:32px;
     color: rgb(9, 207, 234);
 }
@@ -68,7 +59,6 @@
     font-family: 'Lexend Deca', sans-serif;
     font-family: 'Martel Sans', sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
-
 }
 #text div:nth-child(1){
     margin-top:143px;
@@ -109,7 +99,6 @@
     font-family: 'Martel Sans', sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
 }
-
 #subText1{
     padding-top: 34px;
     color: rgb(95,114,127);
@@ -122,7 +111,6 @@
     color: rgb(153,169,181);
     font-size: 14px;
 }
-
 #second #subtitle{
     margin-top: 35px;
     width:391px;
@@ -138,7 +126,6 @@
 #third #checkList{
     border-right:0.5px solid rgb(223, 229, 232);
 }
-
 #checkList li{
     display: flex;
 }
@@ -152,7 +139,6 @@ td, th {
 }
 tr{
     background-color: rgb(244, 246, 247);
-
     height:50px;
 }
 tr:nth-child(even) {
@@ -183,7 +169,6 @@ td p{
 }
 #third #order{
     border-right:0.5px solid rgb(223, 229, 232);
-    
 }
 #order p{
     position:absolute;
@@ -195,7 +180,6 @@ td p{
     color: white;
     border-radius: 25px 25px;
     text-align:center;
-    /* padding:0 auto; */
     padding-top:15px;
     margin-left: 49px;
     top: 50px;
