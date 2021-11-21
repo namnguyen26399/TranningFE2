@@ -1,0 +1,199 @@
+#container{
+    width: 1920px;
+    height: 1028px;
+    background-color: rgb(255, 255, 255);
+}
+#container{
+    display: flex;
+}
+#first,#second,#third{
+    margin: 0 0;
+    width: 391px;
+    height:768px;
+    position: relative;
+    margin-top:138px;
+}
+#first{
+    background-color: rgb(0, 188, 212);
+    margin-left: 375px;
+}
+#second{
+    background-color: rgb(28 , 144, 202);
+}
+#third{
+    background-color: rgb(114, 100, 189);
+}
+
+#title{
+    height:129px;
+}
+#subtitle{
+    border-left:0.5px solid rgb(223, 229, 232);
+}
+#third #subtitle{
+    border-right: 0.5px solid rgb(223, 229, 232);
+}
+#cost{
+    width:120px;
+    height: 120px;
+    border: 0px;
+    border-radius: 100%;
+    background-color: rgb(57, 61, 80);
+    position: absolute;
+    left: 43px;
+    top: -60px;
+    text-align: center;
+    padding-top: 32px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Martel Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#cost p:nth-child(1){
+    font-size:32px;
+    color: rgb(9, 207, 234);
+}
+#cost p:nth-child(2){
+    font-size: 16px;
+    margin-top: 11px;
+    color: rgb(153,168,181);
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Martel Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#text div:nth-child(1){
+    margin-top:143px;
+    margin-left: 48px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 26px;
+    color:white;
+}
+#text div:nth-child(2){
+    margin-top:28px;
+    margin-left: 48px;
+    font-size: 26px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Martel Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+}
+#text_3{
+    margin-top: 30px;
+    margin-left: 48px;
+    color: white;
+    font-size: 14px;
+}
+#second #text div:nth-child(1){
+    margin-top:108px;
+    margin-left: 48px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 26px;
+    color:white;
+}
+#subtitle{
+    width:391px;
+    height: 100px;
+    background-color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Martel Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#subText1{
+    padding-top: 34px;
+    color: rgb(95,114,127);
+    padding-left: 45px;
+    font-size: 24px;
+}
+#subText2{
+    padding-top: 18px;
+    padding-left: 45px;
+    color: rgb(153,169,181);
+    font-size: 14px;
+}
+#second #subtitle{
+    margin-top: 35px;
+    width:391px;
+    height: 100px;
+    background-color: white;
+}
+#checkList{
+    width: 391px;
+    height:250px;
+    background-color: aliceblue;
+    border-left:0.5px solid rgb(223, 229, 232);
+}
+#third #checkList{
+    border-right:0.5px solid rgb(223, 229, 232);
+}
+#checkList li{
+    display: flex;
+}
+table{
+    width: 100%;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr{
+    background-color: rgb(244, 246, 247);
+    height:50px;
+}
+tr:nth-child(even) {
+    background-color: #ffffff;
+    height:50px;
+}
+td{
+    display: flex;
+}
+tr img {
+    margin-left: 47px;
+    margin-right: 13px;
+}
+td img{
+    margin-top: 17px;
+}
+td p{
+    margin-top: 18px;
+    color: rgb(108, 125, 137)
+}
+#order{
+    position: relative;
+    width: 391px;
+    height: 146px;
+    border-left:0.5px solid rgb(223, 229, 232);
+    background-color: white;
+    border-bottom:0.5px solid rgb(223, 229, 232);
+}
+#third #order{
+    border-right:0.5px solid rgb(223, 229, 232);
+}
+#order p{
+    position:absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    width:150px;
+    height:50px;
+    background-color: rgb(182,198,201);
+    color: white;
+    border-radius: 25px 25px;
+    text-align:center;
+    padding-top:15px;
+    margin-left: 49px;
+    top: 50px;
+}
+#second #order img{
+    position: absolute;
+    left: 172px;
+    top: 28px;
+}
+#second #order p{
+    background-color: rgb(44,46,61);
+}
+#second #cost img {
+    position: absolute;
+    top: 18px;
+    left: 101px;
+}
